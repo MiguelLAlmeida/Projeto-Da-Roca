@@ -1,0 +1,110 @@
+body{
+    background-color: rgba(191, 150, 115, 1);
+    font-family: Itim;
+    line-height: normal;
+}
+header,
+footer {
+    background: #ffffff;
+}
+
+#menu {
+    background-color: rgba(115, 23, 2, 1);
+    width: 100.4%;
+    margin-left: -8px;
+    margin-top: -77px;
+    padding: 5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.opcao2{
+    text-decoration: none;
+    display: inline;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 160px;
+    margin-right: 30px;
+}
+.opcao3{
+    text-decoration: none;
+    display: inline;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.opcao3 a, 
+.opcao2 a{
+    text-decoration: none;
+    color: rgba(255, 251, 228, 1);
+    display: inline;
+}
+.opcao {
+    text-decoration: none;
+    display: inline;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 30px;
+}
+.opcao1 {
+    text-decoration: none;
+    display: inline;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    background-color: rgba(242, 127, 61, 1);
+    margin-right: 30px;
+}
+.opcao a,
+.opcao1 a{
+    text-decoration: none;
+    color: rgba(255, 251, 228, 1);
+}
+footer{
+    background-color: rgba(115, 23, 2, 1);
+    height: 200px;
+    width: 101%;
+    margin-left: -8px;
+    margin-bottom: -8px;
+    padding-top: 20px;
+    margin-top: 70px;
+}
+#Desenvolvido{
+    display: flex;
+    justify-content: end;
+    padding-top: -100px;
+}
+#textodesenv{
+    font-size: 13px;
+    margin-right: 30px;
+    color: rgba(255, 251, 228, 1);
+    text-shadow: 10px 10px 5.7px rgba(0, 0, 0, 0.3);    
+}
+.opcaofooter{
+    text-decoration: none;
+    color: rgba(255, 251, 228, 1);
+    text-shadow: 10px 10px 5.7px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.opcaofooter a{
+    text-decoration: none;
+    color: rgba(255, 251, 228, 1);
+    text-shadow: 10px 10px 5.7px rgba(0, 0, 0, 0.3);
+    }

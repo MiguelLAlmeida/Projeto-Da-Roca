@@ -1,0 +1,225 @@
+
+body{
+    background-color: rgba(191, 150, 115, 1);
+    font-family: Itim;
+    line-height: normal;
+}
+header,
+footer{
+    background-color: rgba(115, 23, 2, 1);
+    height: 200px;
+    width: 1583px;
+    margin-left: -8px;
+    margin-bottom: -8px;
+    padding-top: 20px;
+    margin-top: 70px;
+}
+#Desenvolvido{
+    display: flex;
+    justify-content: end;
+    padding-top: -100px;
+}
+#textodesenv{
+    font-size: 13px;
+    margin-right: 30px;
+    color: rgba(255, 251, 228, 1);
+    text-shadow: 10px 10px 5.7px rgba(0, 0, 0, 0.3);    
+}
+.opcaofooter{
+    text-decoration: none;
+    color: rgba(255, 251, 228, 1);
+    text-shadow: 10px 10px 5.7px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.opcaofooter a{
+    text-decoration: none;
+    color: rgba(255, 251, 228, 1);
+    text-shadow: 10px 10px 5.7px rgba(0, 0, 0, 0.3);
+    }
+
+
+
+main {
+    text-align: center;
+}
+
+.opcao a,
+.opcao1 a,
+.opcao2 a,
+.opcao3 a{
+    text-decoration: none;
+    color: rgba(255, 251, 228, 1);
+}
+#logo{
+    padding-left: 20px;
+}
+input{
+    background-color: (255, 251, 228, 1);
+    width: 500px;
+    height: 30px;
+    font-family: Inter;
+    background-color: rgba(255, 251, 228, 1);
+    border: 1px solid rgba(255, 251, 228, 1);
+    border-radius: 8px;
+    text-decoration: none;
+}
+#Sobre{
+    position: relative;
+    font-size: 64px;
+    letter-spacing: 0.19em;
+    line-height: 0%;
+    font-family: Itim;
+    color: #fffbe4;
+    text-align: left;
+    display: inline-block;
+    text-shadow: 10px 10px 5.7px rgba(0, 0, 0, 0.3);
+}
+#Sobre1{
+    font-size: 10px;
+}
+.sobres {
+    display: inline;
+}
+
+#texto{
+    font-family:Itim;
+    text-align: center;
+    font-size: 64px;
+    padding-top: 20px;
+    letter-spacing: 0.05em;
+    line-height: 95%;
+    color: #fffbe4;
+    text-shadow: 10px 10px 5.6px rgba(0, 0, 0, 0.3);
+    width: 770px;
+    position: relative;
+    display: inline-block;
+    
+    
+}
+#texto2{
+    font-family:Itim;
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 55px;
+    letter-spacing: 0.05em;
+    line-height: 95%;
+    text-shadow: 10px 10px 5.6px rgba(0, 0, 0, 0.3);
+    color: #bfba9c;
+    position: relative;
+}
+#bloco{
+    height: 950px;
+    width: 1100px;
+    background-color:#00562D;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+#img{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+#menu {
+    background-color: rgba(115, 23, 2, 1);
+    height: 65px;
+    width: 1573px;
+    margin-left: -8px;
+    margin-top: -8px;
+    padding: 5px;
+}
+.opcao2{
+    text-decoration: none;
+    display: inline;
+    color: rgb(255, 255, 255);
+    padding-top: 100px;
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: -240px;
+    margin-right: 120px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.opcao2 a{
+    text-decoration: none;
+    color: rgba(255, 251, 228, 1);
+}
+.opcao3{
+    text-decoration: none;
+    display: inline;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    padding-top: 100px;
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: -100px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.opcao4{
+    text-decoration: none;
+    display: inline;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    padding-top: 100px;
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.opcao4 a{
+    text-decoration: none;
+    color: rgba(255, 251, 228, 1);
+}
+.opcao3 a{
+    text-decoration: none;
+    color: rgba(255, 251, 228, 1);
+}
+.opcao {
+    text-decoration: none;
+    display: inline;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-top: 100px;
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.opcao1 {
+    text-decoration: none;
+    display: inline;
+    color: rgb(255, 255, 255);
+    padding-top: 100px;
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    margin: 50px;
+    margin-right: 150px;
+    background-color: rgba(242, 127, 61, 1);
+}
+.opcao a,
+.opcao1 a{
+    text-decoration: none;
+    color: rgba(255, 251, 228, 1);
+}
+#logo{
+    padding-left: 20px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
