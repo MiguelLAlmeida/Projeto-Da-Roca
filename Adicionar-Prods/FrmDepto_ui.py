@@ -135,11 +135,11 @@ class Ui_DRprods(object):
     # setupUi
 
     def retranslateUi(self, DRprods):
-        DRprods.setWindowTitle(QCoreApplication.translate("DRprods", u"Cadastro de Departamentos", None))
+        DRprods.setWindowTitle(QCoreApplication.translate("DRprods", u"Cadastro de Produtos", None))
         self.action_Salvar.setText(QCoreApplication.translate("DRprods", u"&Salvar", None))
         self.action_Salvar.setIconText(QCoreApplication.translate("DRprods", u"Adicionar", None))
 #if QT_CONFIG(tooltip)
-        self.action_Salvar.setToolTip(QCoreApplication.translate("DRprods", u"Grava o registro atual no banco de dados", None))
+        self.action_Salvar.setToolTip(QCoreApplication.translate("DRprods", u"Grava o Produto atual no banco de dados", None))
 #endif // QT_CONFIG(tooltip)
         self.action_Sair.setText(QCoreApplication.translate("DRprods", u"Sai&r", None))
 #if QT_CONFIG(tooltip)
