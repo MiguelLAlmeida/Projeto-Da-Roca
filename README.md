@@ -1,76 +1,67 @@
-##🥕 Projeto Da Roça
+# 🥕 Projeto Da Roça
 
-Projeto desenvolvido com o objetivo de simular um site de compra de produtos agrícolas, como frutas, verduras e legumes.
-Foi criado como trabalho escolar para praticar HTML, CSS e JavaScript, utilizando uma API local para carregar os produtos dinamicamente.
+Projeto desenvolvido em **HTML, CSS e JavaScript** como parte de um trabalho escolar.  
+O sistema simula um **site de compras de produtos agrícolas**, permitindo visualizar itens, filtrar por categoria e realizar a seleção de produtos, consumindo dados de uma **API local**.
 
-📌 Funcionalidades
+---
 
-✔ Listagem automática de produtos
-✔ Filtro por categorias (Frutas, Verduras e Legumes)
-✔ Interface simples e organizada
-✔ Consumo de dados via fetch()
-✔ Código organizado e reutilizável
-✔ Atualização dinâmica sem recarregar a página
+## 📌 Funcionalidades
 
-🧠 Como o projeto funciona
+---
 
-🔹 Estrutura
+### 🛒 Catálogo de Produtos
+- Listagem automática de produtos vindos da API  
+- Exibição de nome, imagem e preço  
+- Interface simples e intuitiva  
+- Atualização dinâmica sem recarregar a página  
 
-HTML → Estrutura da página
-CSS → Estilização
-JavaScript → Lógica do sistema
-JSON Server → Simula uma API com os produtos
+---
 
-🔹 Funcionamento
+### 🥬 Filtro por Categorias
+- Frutas  
+- Verduras  
+- Legumes  
+- Filtro feito dinamicamente com JavaScript  
 
-Ao carregar a página, o sistema busca todos os produtos da API.
-Os produtos são exibidos dinamicamente no catálogo.
-O usuário pode selecionar a categoria:
-Frutas
-Verduras
-Legumes
-O sistema filtra os produtos automaticamente.
-Cada produto mostra nome, preço, imagem e opção de compra.
+---
 
-🧾 Exemplo de produto (API)
-{
-  "nome": "Banana",
-  "categoria": "1",
-  "valor": "4.50"
-}
+### 💾 Consumo de API
+- Leitura de dados via `fetch()`
+- Integração com **JSON Server**
+- Separação entre lógica e interface
+- Código organizado e reutilizável  
 
-Categorias:
+---
 
-1 → Frutas
-2 → Verduras
-3 → Legumes
+## 🛠️ Tecnologias Utilizadas
 
-🛠️ Tecnologias utilizadas
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla JS)  
+- JSON Server  
+- Fetch API  
 
-HTML5
-CSS3
-JavaScript (Vanilla JS)
-JSON Server
-Fetch API
+---
 
-📁 Estrutura do projeto
-📦 Projeto-Da-Roca
- ┣ 📂 imgs
- ┣ 📂 css
- ┣ 📂 js
- ┣ 📄 comprar.html
- ┣ 📄 db.json
- ┗ 📄 README.md
+## 🎯 Objetivo do Projeto
 
-👨‍💻 Desenvolvedores
+Este projeto foi desenvolvido com o objetivo de:
 
-Miguel Lopes
-Davi Oton
+- Praticar programação em JavaScript  
+- Trabalhar com consumo de APIs  
+- Aprender organização de código  
+- Simular um sistema real de compras  
+- Desenvolver lógica de programação  
 
-🎯 Objetivo do projeto
+---
 
-Este projeto foi desenvolvido com fins educacionais, com o objetivo de:
-Praticar programação em JavaScript
-Trabalhar com consumo de API
-Melhorar organização de código
-Simular um sistema real de compras
+## 👨‍💻 Desenvolvedores
+
+- Miguel Lopes  
+- Davi Oton  
+
+---
+
+## 📌 Observação
+
+Projeto desenvolvido exclusivamente para fins educacionais.
